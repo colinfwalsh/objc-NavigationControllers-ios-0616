@@ -21,6 +21,9 @@
 		44F3900A18B3F4650012314D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FEC18B3F4650012314D /* UIKit.framework */; };
 		44F3901218B3F4650012314D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44F3901018B3F4650012314D /* InfoPlist.strings */; };
 		681A6BADA8204C118F67A027 /* libPods-NavigationControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */; };
+		BDDB39861D185C22006E6E9A /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB39811D185C22006E6E9A /* TeamDetailViewController.m */; };
+		BDDB39871D185C22006E6E9A /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB39831D185C22006E6E9A /* TeamMember.m */; };
+		BDDB39881D185C22006E6E9A /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB39851D185C22006E6E9A /* TeamViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		44F3900718B3F4650012314D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44F3900F18B3F4650012314D /* NavigationControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationControllersTests-Info.plist"; sourceTree = "<group>"; };
 		44F3901118B3F4650012314D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDDB39801D185C22006E6E9A /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
+		BDDB39811D185C22006E6E9A /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
+		BDDB39821D185C22006E6E9A /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
+		BDDB39831D185C22006E6E9A /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
+		BDDB39841D185C22006E6E9A /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		BDDB39851D185C22006E6E9A /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
 		C8F9E5DF606C723879D1934D /* Pods-NavigationControllersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +125,12 @@
 		44F38FEE18B3F4650012314D /* NavigationControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BDDB39801D185C22006E6E9A /* TeamDetailViewController.h */,
+				BDDB39811D185C22006E6E9A /* TeamDetailViewController.m */,
+				BDDB39821D185C22006E6E9A /* TeamMember.h */,
+				BDDB39831D185C22006E6E9A /* TeamMember.m */,
+				BDDB39841D185C22006E6E9A /* TeamViewController.h */,
+				BDDB39851D185C22006E6E9A /* TeamViewController.m */,
 				44F38FF718B3F4650012314D /* AppDelegate.h */,
 				44F38FF818B3F4650012314D /* AppDelegate.m */,
 				44F38FFA18B3F4650012314D /* Main.storyboard */,
@@ -295,7 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDB39881D185C22006E6E9A /* TeamViewController.m in Sources */,
 				44F38FF918B3F4650012314D /* AppDelegate.m in Sources */,
+				BDDB39861D185C22006E6E9A /* TeamDetailViewController.m in Sources */,
+				BDDB39871D185C22006E6E9A /* TeamMember.m in Sources */,
 				44F38FF518B3F4650012314D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
